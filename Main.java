@@ -5,9 +5,6 @@ public class Main {
 
 		// binary search implemenation
 		System.out.println(BinarySearch.search(data, 2355));
-
-		// linear search implemenation
-		System.out.println(LinearSearch.search(data, 2355));
 	}
 }
  

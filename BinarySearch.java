@@ -4,7 +4,7 @@ class BinarySearch {
 		int head = 0, tail = data.length-1;
 
 		while(head <= tail) {
-			int mid = head + (tail-head) / 2;
+			int mid = (head + tail) / 2;
 			if(data[mid] == target)
 				return mid;
 			else if(data[mid] < target)
